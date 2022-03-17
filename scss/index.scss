@@ -1,0 +1,27 @@
+// General
+@import "./colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+//misc 
+@import '../components/misc/Logo/Logo.scss';
+@import '../components/misc/InfoColumn/InfoColumn.scss';
+@import '../components/misc/Footer/Footer.scss';
+
+//header
+@import '../components/Header/Header.scss';
+@import '../components/Header/HeaderCenter/HeaderCenter.scss';
+
+//forms
+@import '../components/Forms/ModalForm/ModalForm.scss';
+
+//pages
+@import '../pages/nosotros/Nosotros.scss';
+@import '../pages/productos/Productos.scss';
+@import '../pages/servicios/Servicios.scss';
+
+//components pages
+
+@import '../components/Pages/Home/CoverOne/CoverOne.scss';
+@import '../components/Pages/Home/CoverSecond/CoverSecond.scss';
+@import '../components/Pages/Home/CoverThree/CoverThree.scss';
+@import '../components/Pages/Home/CoverFour/CoverFour.scss';

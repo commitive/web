@@ -1,0 +1,27 @@
+.coverOne {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: center;
+    padding: 3rem !important;
+
+    &__claims {
+        color: $font-secondary;
+
+        h1 {
+            font-size: 3.25rem;
+        }
+
+        h3 {
+            font-weight: 100;
+        }
+    }
+
+    &__img {
+        
+        img {
+            width: 100vw !important;
+            height: 30vh !important;
+        }
+    }
+}

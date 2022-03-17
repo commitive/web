@@ -1,0 +1,28 @@
+.coverThree {
+    width: 100% !important;
+    height: 25rem;
+    padding: 1.5rem;
+    margin: 2rem;
+    box-shadow: 0.0625rem 0.225rem 1.225rem 0 rgba(0, 0, 0, 0.12);
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+
+    &__claim {
+
+        width: 60%;
+
+        span {
+            color: $font-secondary;
+            padding: 1rem;
+            font-size: 1.75rem;
+            line-height: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+}
