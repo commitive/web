@@ -8,13 +8,13 @@ const Productos = () => {
             <div className="productos">
                 <h1>
                     Somos el fabricante de{' '}
-                    <a href="//clarive.com" target="_blank">
+                    <a href="//clarive.com" target="_blank" rel="noreferrer">
                         Clarive
                     </a>
                     , plataforma DevOps líder en el mercado
                 </h1>
                 <p>
-                    <a href="//clarive.com" target="_blank">
+                    <a href="//clarive.com" target="_blank" rel="noreferrer">
                         <img src="clarive-banner.png" />
                     </a>
                 </p>
