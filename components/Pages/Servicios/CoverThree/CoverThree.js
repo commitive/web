@@ -12,7 +12,7 @@ const CoverThree = () => {
                     <Image src={ coverThreeImg } />
                 </Grid.Column>
                 <Grid.Column width={6} className='cover-three-services__solutions-item'>
-                    <h1>Software de Business Intelligent y/o analíticas de tu negocio.</h1>
+                    <h1>Software de Business Intelligent y/o analíticas de tu negocio</h1>
                     <p>
                         A través de productos propios o productos de terceros solucionamos cualquier 
                         necesidad relacionado con Business Intelligen y analítica de tu negocio. 

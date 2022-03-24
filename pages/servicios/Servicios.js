@@ -7,6 +7,7 @@ import { Container } from 'semantic-ui-react';
 import CoverTwo from '../../components/Pages/Servicios/CoverTwo';
 import CoverThree from '../../components/Pages/Servicios/CoverThree';
 import CoverFour from '../../components/Pages/Servicios/CoverFour';
+import CoverFive from '../../components/Pages/Servicios/CoverFive/CoverFive';
 
 const Servicios = () => {
   return (
@@ -19,6 +20,7 @@ const Servicios = () => {
         <CoverTwo />
         <CoverThree />
         <CoverFour />
+        <CoverFive />
       </Container>
       <Footer />
     </>
