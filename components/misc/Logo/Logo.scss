@@ -9,3 +9,15 @@
         width: 14rem !important;
     }
 }
+
+.footer {
+    .logo {
+        display: none;
+        @media screen and (min-width: 800px) {
+            display: inherit;
+            img {
+                height: 3rem !important;
+            }
+        }
+    }
+}

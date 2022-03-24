@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Header from '../../components/Header';
 import CoverOne from '../../components/Pages/Productos/CoverOne';
 import Footer from '../../components/misc/Footer';
