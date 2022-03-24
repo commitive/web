@@ -37,7 +37,7 @@ const CoverFour = () => {
             </Grid.Column>
             <Grid.Column width={8} className='coverFour__solution'>
               <Image src={ coverFourImgForth } />
-              <h3>Desde soluciones a medida a implantaciiones de productos como Slack, Githubo o Microsoft Teams para digitalizar tu oficina virtual</h3> 
+              <h3>Desde soluciones a medida a implantaciones de productos como Slack, Githubo o Microsoft Teams para digitalizar tu oficina virtual</h3> 
             </Grid.Column>
           </Grid.Row>
           <Grid.Row className='coverFour__item'>

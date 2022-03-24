@@ -6,6 +6,8 @@
 @import '../components/misc/Logo/Logo.scss';
 @import '../components/misc/InfoColumn/InfoColumn.scss';
 @import '../components/misc/Footer/Footer.scss';
+@import '../components/misc/Carousel/Carouse.scss';
+@import '../components/misc/Carousel/ButtonsCarousel/ButtonsCarousel.scss';
 
 //header
 @import '../components/Header/Header.scss';
@@ -21,7 +23,17 @@
 
 //components pages
 
+//home
 @import '../components/Pages/Home/CoverOne/CoverOne.scss';
 @import '../components/Pages/Home/CoverSecond/CoverSecond.scss';
 @import '../components/Pages/Home/CoverThree/CoverThree.scss';
 @import '../components/Pages/Home/CoverFour/CoverFour.scss';
+
+//productos
+@import '../components/Pages/Productos/CoverOne/CoverOne.scss';
+
+//servicios
+@import '../components/Pages/Servicios/CoverOne/CoverOne.scss';
+@import '../components/Pages/Servicios/CoverTwo/CoverTwo.scss';
+@import '../components/Pages/Servicios/CoverThree/CoverThree.scss';
+@import '../components/Pages/Servicios/CoverFour/CoverFour.scss';

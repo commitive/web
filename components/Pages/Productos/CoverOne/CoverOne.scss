@@ -1,0 +1,37 @@
+.coverOne-product {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    color: $font-secondary;
+
+    &__clarive {
+        display: flex;
+        flex-direction: row !important;
+        align-items: flex-start;
+        justify-content: space-evenly;
+
+        &-description {
+            width: 40%;
+            padding: 2rem 1rem;
+
+            img {
+                width: 20rem !important;
+            }
+        }
+
+        &-carousel {
+            width: 30%;
+
+            &-description {
+                padding: 2rem;
+
+                span {
+                    padding: 2rem;
+                    font-size: 2rem;
+                }
+            }
+            
+        }
+    }
+}

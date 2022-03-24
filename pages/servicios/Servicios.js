@@ -1,9 +1,27 @@
 import React from 'react';
 import Header from '../../components/Header';
+import Footer from '../../components/misc/Footer';
+import CoverOne from '../../components/Pages/Servicios/CoverOne';
+import HeadPages from '../../components/HeadPages';
+import { Container } from 'semantic-ui-react';
+import CoverTwo from '../../components/Pages/Servicios/CoverTwo';
+import CoverThree from '../../components/Pages/Servicios/CoverThree';
+import CoverFour from '../../components/Pages/Servicios/CoverFour';
 
 const Servicios = () => {
   return (
-    <Header />
+    <>
+      <HeadPages name='Commitive' description='Servicios' />
+      <Header />
+      <Container>
+        <h1>Más de 15 años realizando estos servicios nos avalan</h1>
+        <CoverOne />
+        <CoverTwo />
+        <CoverThree />
+        <CoverFour />
+      </Container>
+      <Footer />
+    </>
   )
 }
 

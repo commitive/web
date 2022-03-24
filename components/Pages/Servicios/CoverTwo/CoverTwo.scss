@@ -1,0 +1,33 @@
+.cover-two-services {
+    width: 100%;
+
+    &__solutions {
+
+        width: 100%;
+        padding: 3rem;
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        &-item-img {
+            width: 50%;
+        }
+
+        &-item {
+            width: 60%;
+
+            h1 {
+                color: $font-secondary;
+            }
+
+            p {
+                color: $font-secondary;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
