@@ -7,7 +7,10 @@ import { Container } from 'semantic-ui-react';
 import CoverTwo from '../../components/Pages/Servicios/CoverTwo';
 import CoverThree from '../../components/Pages/Servicios/CoverThree';
 import CoverFour from '../../components/Pages/Servicios/CoverFour';
-import CoverFive from '../../components/Pages/Servicios/CoverFive/CoverFive';
+import CoverFive from '../../components/Pages/Servicios/CoverFive';
+import CoverSix from '../../components/Pages/Servicios/CoverSix';
+import CoverSeven from '../../components/Pages/Servicios/CoverSeven';
+import CoverEight from '../../components/Pages/Servicios/CoverEight';
 
 const Servicios = () => {
   return (
@@ -21,6 +24,9 @@ const Servicios = () => {
         <CoverThree />
         <CoverFour />
         <CoverFive />
+        <CoverSix />
+        <CoverSeven />
+        <CoverEight />
       </Container>
       <Footer />
     </>
