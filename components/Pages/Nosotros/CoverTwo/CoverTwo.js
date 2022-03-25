@@ -7,7 +7,6 @@ const CoverTwo = () => {
     <div className='cover-two-nosotros'>
         <h1>Democratizar</h1>
         <div className='cover-two-nosotros__description'>
-            <Image src={ coverTwoImg } />
             <div className='cover-two-nosotros__description-claims'>
                 <p>
                     La experiencia nos ha enseñado que la tecnología tiene que ser accesible para
@@ -18,6 +17,7 @@ const CoverTwo = () => {
                     con la mayor eficiencia y eficacia.
                 </p>
             </div>
+            <Image src={ coverTwoImg } />
         </div>
     </div>
   )
