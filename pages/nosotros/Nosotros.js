@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import HeadPages from '../../components/HeadPages';
 import Footer from '../../components/misc/Footer';
 import CoverOne from '../../components/Pages/Nosotros/CoverOne';
+import CoverTwo from '../../components/Pages/Nosotros/CoverTwo';
 
 const Nosotros = () => {
   return (
@@ -10,6 +11,7 @@ const Nosotros = () => {
       <HeadPages name='Commitive' description='Nosotros' />
       <Header />
       <CoverOne />
+      <CoverTwo />
       <Footer />
     </div>
   )
