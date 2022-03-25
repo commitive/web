@@ -19,7 +19,7 @@ const CoverSix = () => {
               </Grid.Column>
           </Grid.Row>
       </div>
-  </Grid>
+    </Grid>
   )
 };
 
