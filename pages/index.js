@@ -6,6 +6,7 @@ import CoverSecond from '../components/Pages/Home/CoverSecond';
 import CoverThree from '../components/Pages/Home/CoverThree';
 import CoverFour from '../components/Pages/Home/CoverFour';
 import Footer from '../components/misc/Footer';
+import ContactForm from '../components/Forms/ContactForm';
 
 export default function Home() {
 

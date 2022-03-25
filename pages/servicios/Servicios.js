@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/misc/Footer';
 import CoverOne from '../../components/Pages/Servicios/CoverOne';
@@ -13,10 +13,13 @@ import CoverSeven from '../../components/Pages/Servicios/CoverSeven';
 import CoverEight from '../../components/Pages/Servicios/CoverEight';
 
 const Servicios = () => {
+
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <>
       <HeadPages name='Commitive' description='Servicios' />
-      <Header />
+      <Header showModal={ showModal } setShowModal={ setShowModal } />
       <Container>
         <h1>Más de 15 años realizando estos servicios nos avalan</h1>
         <CoverOne />

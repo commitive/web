@@ -1,5 +1,6 @@
 import React from 'react';
 import { Modal } from 'semantic-ui-react';
+import ContactForm from '../ContactForm';
 
 const ModalForm = ({ showModal, setShowModal }) => {
 
@@ -8,8 +9,8 @@ const ModalForm = ({ showModal, setShowModal }) => {
     };
 
     return (
-        <Modal open={ showModal } onClose={ onClose }>
-            <h1>ModalForm</h1>
+        <Modal open={ showModal } onClose={ onClose } loading >
+            <ContactForm setShowModal={ setShowModal } />
         </Modal>
     )
 }

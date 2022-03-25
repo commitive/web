@@ -1,0 +1,25 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $background-light;
+    border-radius: 1rem;
+    padding: 3rem;
+
+    h2 {
+        width: 40%;
+        color: $font-secondary;
+        padding: 1rem;
+    }
+
+    &-fields {
+        width: 50%;
+
+        .field {
+            label {
+                color: $font-secondary !important;
+            }
+        }
+    }
+}
