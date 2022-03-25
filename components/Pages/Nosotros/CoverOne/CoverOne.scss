@@ -1,0 +1,32 @@
+.cover-one-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+
+    h1 {
+        color: $font-secondary;
+        font-size: 4rem;
+    }
+
+    &__description {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        
+        span {
+            padding: 2rem !important;
+            margin: 1rem !important;
+        }
+        
+        &-claims {
+            color: $font-secondary;
+            padding: 2rem;
+            font-size: 1.5rem;
+        }
+    }
+}
